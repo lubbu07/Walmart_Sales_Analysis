@@ -133,7 +133,7 @@ pip install -r requirements.txt
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/walmart-sales-analysis.git
+   git clone <repo-url>
    ```
 2. Set up Kaggle API and download the dataset.
 3. Run `main.py` to clean and load the data.
@@ -143,13 +143,13 @@ pip install -r requirements.txt
 
 ## 📄 License
 
-Licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+Licensed under the MIT License.
 
 ---
 
 ## 🙏 Acknowledgments
 
-- Dataset provided by Kaggle.
-- Inspired by real-world data analyst case scenarios in retail and supply chain analytics.
+- Data Source - Dataset provided by Kaggle.
+- Inspiration - Inspired by real-world Walmart’s business case studies on sales and supply chain optimization.
 
 ---
