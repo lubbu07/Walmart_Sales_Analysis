@@ -3,7 +3,7 @@
 
 ##  Overview
 
-![Project Pipeline](https://github.com/najirh/Walmart_SQL_Python/blob/main/walmart_project-piplelines.png)
+![Project Pipeline](walmart_project-piplelines-image.png)
 
 This project is a hands-on implementation of a complete data analysis workflow on Walmart sales data. Using a combination of SQL and Python, I extracted, cleaned, analyzed, and loaded data to solve real-world business problems. The project emphasizes practical skills in data manipulation, querying relational databases, and delivering actionable insights for decision-making.
 
@@ -12,7 +12,7 @@ This project is a hands-on implementation of a complete data analysis workflow o
 ##  Project Workflow
 
 ### 1. Environment Setup
-- **Tools & Technologies**: Python, MySQL, PostgreSQL, VS Code
+- **Tools & Technologies**: Python, MySQL, VS Code
 - **Objective**: Establish an organized workspace and prepare the local environment for efficient data processing and development.
 
 ### 2. Kaggle API Configuration
@@ -23,8 +23,7 @@ This project is a hands-on implementation of a complete data analysis workflow o
 
 ### 3. Dataset Acquisition
 - **Source**: Walmart sales data hosted on Kaggle.
-- **Dataset URL**: [Walmart Sales Dataset](https://www.kaggle.com/najir0123/walmart-10k-sales-datasets)
-- **Storage Location**: Saved in the `data/` directory for streamlined access.
+- **Dataset URL**: [Walmart Sales Dataset](https://www.kaggle.com/datasets/lubainaraja/walmart-sales-dataset)
 
 ### 4. Library Installation & Data Loading
 - **Required Libraries**:
@@ -59,12 +58,14 @@ This project is a hands-on implementation of a complete data analysis workflow o
 
 I designed and executed SQL queries to answer the following business-critical questions:
 
--  What are the revenue trends by store branch and product category?
--  Which categories and items are the best performers?
--  How does sales performance vary by city, weekday, and time?
--  What are the peak shopping periods during the week or day?
--  How do profit margins differ between locations and product types?
--  What are the most preferred payment methods among customers?
+-  Q1: What are the most used payment methods and total quantities sold?
+- Q2: Which product category has the highest average rating in each branch?
+- Q3: What is the busiest day of the week for each branch based on number of transactions?
+- transactions?
+- Q4: What is the total quantity of items sold per payment method?
+- Q5: What are the minimum, maximum, and average ratings of categories in each city?
+- Q6: What is the total profit generated per category?
+
 
 All queries were logged, and results interpreted to provide insights for operations and strategy.
 
@@ -75,7 +76,7 @@ All queries were logged, and results interpreted to provide insights for operati
 | Category      | Tools & Libraries                                  |
 |---------------|----------------------------------------------------|
 | Programming   | Python (Pandas, NumPy)                             |
-| Databases     | MySQL, PostgreSQL                                  |
+| Databases     | MySQL                                              |
 | Data Transfer | SQLAlchemy, MySQL Connector, psycopg2              |
 | Other Tools   | Kaggle API, VS Code, Git, GitHub                   |
 
@@ -86,23 +87,24 @@ All queries were logged, and results interpreted to provide insights for operati
 ```
 walmart-sales-analysis/
 │
-├── data/              # Raw and cleaned datasets
-├── sql_queries/       # SQL scripts for business questions
-├── notebooks/         # Jupyter notebooks for EDA and Python work
-├── main.py            # Python script to clean and load data
-├── requirements.txt   # List of Python dependencies
-└── README.md          # Project documentation
+├── data              # Raw datasets
+├── sql_queries       # SQL scripts for business questions
+├── main.py           # Python script to clean and load data
+├── requirements.txt  # List of Python dependencies
+└── README.md         # Project documentation
 ```
 
 ---
 
 ##  Key Insights
 
--  Branch C generated the highest revenue, while Branch A had the best profit margins.
--  The Fashion category had the highest number of items sold across all cities.
--  E-wallet was the fastest-growing payment method, especially on weekends.
--  Evening hours and Fridays recorded peak sales.
--  Customer ratings were consistently higher in urban branches.
+- Payment Trends: E-wallets were the most preferred payment method and contributed the highest item sales.
+- Customer Ratings: Each branch had different top-rated categories; Fashion, Health and Beauty, and Electronics led in their respective branches.
+- Weekly Sales Pattern: Friday was the busiest day across all branches, likely due to pre-weekend shopping habits.
+- Rating Analysis by City: Yangon showed higher average ratings in Food and Beverages, suggesting better service or product alignment.
+- Profitability: Health and Beauty and Home and Lifestyle were the most profitable categories.
+- Sales Shifts: Evening shifts recorded the highest number of invoices, highlighting peak customer activity.
+- Year-over-Year Revenue Drop: 5 branches saw a significant revenue decline from 2022 to 2023, indicating areas needing performance intervention.
 
 ---
 
