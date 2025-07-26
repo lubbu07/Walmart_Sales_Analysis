@@ -1,0 +1,3 @@
+pandas - Library
+pymysql
+sqlalchemy
