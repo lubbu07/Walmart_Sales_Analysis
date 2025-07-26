@@ -1,7 +1,7 @@
 
 # 🛍 Walmart Sales Analysis | SQL + Python End-to-End Project
 
-## 📌 Overview
+##  Overview
 
 ![Project Pipeline](https://github.com/najirh/Walmart_SQL_Python/blob/main/walmart_project-piplelines.png)
 
@@ -9,7 +9,7 @@ This project is a hands-on implementation of a complete data analysis workflow o
 
 ---
 
-## 🛠️ Project Workflow
+##  Project Workflow
 
 ### 1. Environment Setup
 - **Tools & Technologies**: Python, MySQL, PostgreSQL, VS Code
@@ -55,22 +55,22 @@ This project is a hands-on implementation of a complete data analysis workflow o
 
 ---
 
-## 📊 Business Questions Solved
+##  Business Questions Solved
 
 I designed and executed SQL queries to answer the following business-critical questions:
 
-- 📌 What are the revenue trends by store branch and product category?
-- 🛒 Which categories and items are the best performers?
-- 📍 How does sales performance vary by city, weekday, and time?
-- ⏰ What are the peak shopping periods during the week or day?
-- 💰 How do profit margins differ between locations and product types?
-- 💳 What are the most preferred payment methods among customers?
+-  What are the revenue trends by store branch and product category?
+-  Which categories and items are the best performers?
+-  How does sales performance vary by city, weekday, and time?
+-  What are the peak shopping periods during the week or day?
+-  How do profit margins differ between locations and product types?
+-  What are the most preferred payment methods among customers?
 
 All queries were logged, and results interpreted to provide insights for operations and strategy.
 
 ---
 
-## 💻 Technologies Used
+##  Technologies Used
 
 | Category      | Tools & Libraries                                  |
 |---------------|----------------------------------------------------|
@@ -81,7 +81,7 @@ All queries were logged, and results interpreted to provide insights for operati
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 walmart-sales-analysis/
@@ -96,25 +96,18 @@ walmart-sales-analysis/
 
 ---
 
-## 📈 Key Insights
+##  Key Insights
 
-- 🏬 Branch C generated the highest revenue, while Branch A had the best profit margins.
-- 👕 The Fashion category had the highest number of items sold across all cities.
-- 💳 E-wallet was the fastest-growing payment method, especially on weekends.
-- 🕒 Evening hours and Fridays recorded peak sales.
-- 🌆 Customer ratings were consistently higher in urban branches.
-
----
-
-## 🔮 Future Work
-
-- Build an interactive dashboard using Power BI or Tableau.
-- Expand analysis with external datasets such as regional income, footfall, or customer demographics.
-- Automate daily ETL pipelines for real-time insights and alerts.
+-  Branch C generated the highest revenue, while Branch A had the best profit margins.
+-  The Fashion category had the highest number of items sold across all cities.
+-  E-wallet was the fastest-growing payment method, especially on weekends.
+-  Evening hours and Fridays recorded peak sales.
+-  Customer ratings were consistently higher in urban branches.
 
 ---
 
-## ✅ Requirements
+
+##  Requirements
 
 - Python 3.8 or above
 - SQL Database (MySQL/PostgreSQL)
@@ -129,7 +122,7 @@ pip install -r requirements.txt
 
 ---
 
-## ⚙️ Getting Started
+##  Getting Started
 
 1. Clone the repository:
    ```bash
@@ -141,13 +134,13 @@ pip install -r requirements.txt
 
 ---
 
-## 📄 License
+##  License
 
 Licensed under the MIT License.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Data Source - Dataset provided by Kaggle.
 - Inspiration - Inspired by real-world Walmart’s business case studies on sales and supply chain optimization.
