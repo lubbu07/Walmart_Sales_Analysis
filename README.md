@@ -58,10 +58,9 @@ This project is a hands-on implementation of a complete data analysis workflow o
 
 I designed and executed SQL queries to answer the following business-critical questions:
 
--  Q1: What are the most used payment methods and total quantities sold?
+- Q1: What are the most used payment methods and total quantities sold?
 - Q2: Which product category has the highest average rating in each branch?
 - Q3: What is the busiest day of the week for each branch based on number of transactions?
-- transactions?
 - Q4: What is the total quantity of items sold per payment method?
 - Q5: What are the minimum, maximum, and average ratings of categories in each city?
 - Q6: What is the total profit generated per category?
@@ -89,7 +88,7 @@ walmart-sales-analysis/
 │
 ├── data              # Raw datasets
 ├── sql_queries       # SQL scripts for business questions
-├── main.py           # Python script to clean and load data
+├── main.ipynb           # Python script to clean and load data
 ├── requirements.txt  # List of Python dependencies
 └── README.md         # Project documentation
 ```
@@ -101,10 +100,9 @@ walmart-sales-analysis/
 - Payment Trends: E-wallets were the most preferred payment method and contributed the highest item sales.
 - Customer Ratings: Each branch had different top-rated categories; Fashion, Health and Beauty, and Electronics led in their respective branches.
 - Weekly Sales Pattern: Friday was the busiest day across all branches, likely due to pre-weekend shopping habits.
-- Rating Analysis by City: Yangon showed higher average ratings in Food and Beverages, suggesting better service or product alignment.
-- Profitability: Health and Beauty and Home and Lifestyle were the most profitable categories.
+- Profitability: Fashion Accessories and Home and Lifestyle were the most profitable categories.
 - Sales Shifts: Evening shifts recorded the highest number of invoices, highlighting peak customer activity.
-- Year-over-Year Revenue Drop: 5 branches saw a significant revenue decline from 2022 to 2023, indicating areas needing performance intervention.
+- Customer Behavior: Trends in ratings, payment preferences, and peak shopping hours.
 
 ---
 
@@ -132,7 +130,7 @@ pip install -r requirements.txt
    ```
 2. Set up Kaggle API and download the dataset.
 3. Run `main.py` to clean and load the data.
-4. Explore SQL business queries in the `sql_queries/` folder.
+4. Explore SQL business queries in the `sql_queries` file.
 
 ---
 
